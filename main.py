@@ -3,11 +3,13 @@ import mysql.connector,hashlib
 import matplotlib.pyplot as plt
 import numpy as np
 
-mydb = mysql.connector.connect(
-  host='localhost',
-  user='root',
+import os
 
-  database = 'dbmsproject'
+mydb = mysql.connector.connect(
+    host=os.environ.get("DB_HOST"),
+    user=os.environ.get("DB_USER"),
+    password=os.environ.get("DB_PASSWORD"),
+    database=os.environ.get("DB_NAME")
 )
 mycursor = mydb.cursor(buffered=True)
 
