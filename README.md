@@ -32,7 +32,7 @@ arise,,nowdays
 
 ------------------------------------------------------------------------------------------------------
 
-Go through Gautham_OTMS_report.pdf to understand more
+Go through Galang_OTMS_report.pdf to understand more
 It has complete information regarding the project and its Implementation
 
 -----------------------------------------------------------------------------------------------------
