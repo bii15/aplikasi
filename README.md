@@ -48,11 +48,11 @@ It has complete information regarding the project and its Implementation
 -----------------------------------------------------------------------------------------------------------------------------
 ![IMG_20220123_153051](https://user-images.githubusercontent.com/85282195/161382966-97b1f9cd-3706-463b-b2e4-f3ad6d91f578.jpg)
 -----------------------------------------------------------------------------------------------------------------------------
-![tampilan login rs system](https://github.com/user-attachments/assets/49d544c6-649d-4d4a-aae8-17cf12c68526)
+![tampilan login rs system](https://github.com/user-attachments/assets/e5f3e5e9-3d5a-4616-811b-2d2e3a5bb18f)
 -----------------------------------------------------------------------------------------------------------------------------
 ![IMG_20220123_152633](https://user-images.githubusercontent.com/85282195/161382969-ca12bf93-fc91-4d68-b2b1-e30ecdafe3f4.jpg)
 -----------------------------------------------------------------------------------------------------------------------------
-![laman pertama](https://github.com/user-attachments/assets/ff29c55f-5176-46ac-b3d4-55ea25092dc1)
+![laman pertama](https://github.com/user-attachments/assets/6d4afaf0-78b9-4996-8841-1bac58afd3a8)
 -----------------------------------------------------------------------------------------------------------------------------
 
 The ORGAN TRANSPLANT MANAGEMENT SYSTEM is database management system
