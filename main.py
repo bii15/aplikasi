@@ -1115,7 +1115,10 @@ def stats():
     plt.savefig('./static/success.jpeg')
     return render_template('statistics.html')
 
-if __name__ == "__main__":
-    app.secret_key = 'sec key'
+import os
+
+if _name_ == "_main_":
+    app.secret_key = "sec key"
     app.config['SESSION_TYPE'] = 'filesystem'
-    app.run(debug=True)
+    port = int(os.environ.get("PORT", 5000))
+    app.run(host="0.0.0.0", port=port)
