@@ -4,10 +4,10 @@ import matplotlib.pyplot as plt
 import numpy as np
 
 mydb = mysql.connector.connect(
-    host=os.environ.get("DB_HOST", "localhost"),
-    user=os.environ.get("DB_USER", "root"),
-    password=os.environ.get("DB_PASSWORD", ""),
-    database=os.environ.get("DB_NAME", "dbmsproject")
+  host='localhost',
+  user='root',
+
+  database = 'dbmsproject'
 )
 mycursor = mydb.cursor(buffered=True)
 
@@ -1082,7 +1082,6 @@ def stats():
     list = mycursor.fetchall()
     organ_list = []
     for organ in list:
-        print(organ)
         organ_list.append(organ[0])
     print(organ)
     A.clear()
@@ -1115,10 +1114,7 @@ def stats():
     plt.savefig('./static/success.jpeg')
     return render_template('statistics.html')
 
-import os
-
-if _name_ == "_main_":
-    app.secret_key = "sec key"
+if __name__ == "__main__":
+    app.secret_key = 'sec key'
     app.config['SESSION_TYPE'] = 'filesystem'
-    port = int(os.environ.get("PORT", 5000))
-    app.run(host="0.0.0.0", port=port)
+    app.run(debug=True)
